@@ -29,19 +29,12 @@
             height: 100px;
             width: 100px;
             background-color: hotpink;
-            /* link the animation */
             animation-name: box-mover;
             animation-duration: 5s;
-            /* animation-iteration-count: infinite; */
-        /* after each iteration which direction your animation should  */
             animation-direction: alternate;
-            /* if animation iteration is not inifinte -> where you want your animation to end */
             animation-fill-mode: forwards;
-        /* speed of animation */
             animation-timing-function: ease-in;
         }
-
-        /* define the animation */
         @keyframes box-mover {
             20% {
                 transform: translateX(400px);
